@@ -7,18 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE099CE729F1DD5E009D34E3 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE099CE629F1DD5E009D34E3 /* Stickers.xcassets */; };
+		DE099CEB29F1DD5E009D34E3 /* Casino Game Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DE099CE429F1DD5D009D34E3 /* Casino Game Stickers.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DEB86E8329F1564F00F0E039 /* SwiftUIGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB86E8229F1564F00F0E039 /* SwiftUIGameApp.swift */; };
 		DEB86E8529F1564F00F0E039 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB86E8429F1564F00F0E039 /* ContentView.swift */; };
 		DEB86E8729F1565000F0E039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB86E8629F1565000F0E039 /* Assets.xcassets */; };
 		DEB86E8A29F1565000F0E039 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB86E8929F1565000F0E039 /* Preview Assets.xcassets */; };
+		DEB86E9929F1579500F0E039 /* background-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB86E9129F1579500F0E039 /* background-music.mp3 */; };
+		DEB86E9A29F1579500F0E039 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB86E9229F1579500F0E039 /* chimeup.mp3 */; };
+		DEB86E9B29F1579500F0E039 /* casino-chips.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB86E9329F1579500F0E039 /* casino-chips.mp3 */; };
+		DEB86E9C29F1579500F0E039 /* spin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB86E9429F1579500F0E039 /* spin.mp3 */; };
+		DEB86E9D29F1579500F0E039 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB86E9529F1579500F0E039 /* win.mp3 */; };
+		DEB86E9E29F1579500F0E039 /* game-over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB86E9629F1579500F0E039 /* game-over.mp3 */; };
+		DEB86E9F29F1579500F0E039 /* high-score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB86E9729F1579500F0E039 /* high-score.mp3 */; };
+		DEB86EA029F1579500F0E039 /* riseup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB86E9829F1579500F0E039 /* riseup.mp3 */; };
+		DEB86EA429F157DA00F0E039 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB86EA329F157DA00F0E039 /* Launch Screen.storyboard */; };
+		DEB86EA629F16F4300F0E039 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB86EA529F16F4300F0E039 /* LogoView.swift */; };
+		DEB86EA829F16F9400F0E039 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB86EA729F16F9400F0E039 /* Modifiers.swift */; };
+		DEB86EAA29F1732C00F0E039 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB86EA929F1732C00F0E039 /* Extensions.swift */; };
+		DEB86EAC29F174AE00F0E039 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB86EAB29F174AE00F0E039 /* ReelView.swift */; };
+		DEB86EAE29F17CF100F0E039 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB86EAD29F17CF100F0E039 /* InfoView.swift */; };
+		DEB86EB029F17DB000F0E039 /* FormRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB86EAF29F17DB000F0E039 /* FormRowView.swift */; };
+		DEB86EB529F1B86700F0E039 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB86EB429F1B86700F0E039 /* PopupView.swift */; };
+		DEB86EB729F1D07600F0E039 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB86EB629F1D07600F0E039 /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DE099CE929F1DD5E009D34E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB86E7729F1564F00F0E039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE099CE329F1DD5D009D34E3;
+			remoteInfo = "Casino Game Stickers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE099CEF29F1DD5E009D34E3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DE099CEB29F1DD5E009D34E3 /* Casino Game Stickers.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DE099CE129F1D7DC009D34E3 /* SwiftUIGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIGame.entitlements; sourceTree = "<group>"; };
+		DE099CE429F1DD5D009D34E3 /* Casino Game Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Casino Game Stickers.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE099CE629F1DD5E009D34E3 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		DE099CE829F1DD5E009D34E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEB86E7F29F1564F00F0E039 /* SwiftUIGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB86E8229F1564F00F0E039 /* SwiftUIGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGameApp.swift; sourceTree = "<group>"; };
 		DEB86E8429F1564F00F0E039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEB86E8629F1565000F0E039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEB86E8929F1565000F0E039 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEB86E9129F1579500F0E039 /* background-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "background-music.mp3"; sourceTree = "<group>"; };
+		DEB86E9229F1579500F0E039 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		DEB86E9329F1579500F0E039 /* casino-chips.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "casino-chips.mp3"; sourceTree = "<group>"; };
+		DEB86E9429F1579500F0E039 /* spin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spin.mp3; sourceTree = "<group>"; };
+		DEB86E9529F1579500F0E039 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		DEB86E9629F1579500F0E039 /* game-over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-over.mp3"; sourceTree = "<group>"; };
+		DEB86E9729F1579500F0E039 /* high-score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "high-score.mp3"; sourceTree = "<group>"; };
+		DEB86E9829F1579500F0E039 /* riseup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = riseup.mp3; sourceTree = "<group>"; };
+		DEB86EA329F157DA00F0E039 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DEB86EA529F16F4300F0E039 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		DEB86EA729F16F9400F0E039 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		DEB86EA929F1732C00F0E039 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DEB86EAB29F174AE00F0E039 /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		DEB86EAD29F17CF100F0E039 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		DEB86EAF29F17DB000F0E039 /* FormRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowView.swift; sourceTree = "<group>"; };
+		DEB86EB329F185AE00F0E039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DEB86EB429F1B86700F0E039 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		DEB86EB629F1D07600F0E039 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,10 +97,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE099CE529F1DD5D009D34E3 /* Casino Game Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				DE099CE629F1DD5E009D34E3 /* Stickers.xcassets */,
+				DE099CE829F1DD5E009D34E3 /* Info.plist */,
+			);
+			path = "Casino Game Stickers";
+			sourceTree = "<group>";
+		};
 		DEB86E7629F1564F00F0E039 = {
 			isa = PBXGroup;
 			children = (
 				DEB86E8129F1564F00F0E039 /* SwiftUIGame */,
+				DE099CE529F1DD5D009D34E3 /* Casino Game Stickers */,
 				DEB86E8029F1564F00F0E039 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB86E7F29F1564F00F0E039 /* SwiftUIGame.app */,
+				DE099CE429F1DD5D009D34E3 /* Casino Game Stickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +127,14 @@
 		DEB86E8129F1564F00F0E039 /* SwiftUIGame */ = {
 			isa = PBXGroup;
 			children = (
+				DE099CE129F1D7DC009D34E3 /* SwiftUIGame.entitlements */,
+				DEB86EB329F185AE00F0E039 /* Info.plist */,
+				DEB86EA129F157BD00F0E039 /* View */,
+				DEB86EA229F157C300F0E039 /* Helpers */,
 				DEB86E8229F1564F00F0E039 /* SwiftUIGameApp.swift */,
-				DEB86E8429F1564F00F0E039 /* ContentView.swift */,
 				DEB86E8629F1565000F0E039 /* Assets.xcassets */,
+				DEB86EA329F157DA00F0E039 /* Launch Screen.storyboard */,
+				DEB86E9029F1579500F0E039 /* Sounds */,
 				DEB86E8829F1565000F0E039 /* Preview Content */,
 			);
 			path = SwiftUIGame;
@@ -67,9 +148,62 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DEB86E9029F1579500F0E039 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DEB86E9129F1579500F0E039 /* background-music.mp3 */,
+				DEB86E9229F1579500F0E039 /* chimeup.mp3 */,
+				DEB86E9329F1579500F0E039 /* casino-chips.mp3 */,
+				DEB86E9429F1579500F0E039 /* spin.mp3 */,
+				DEB86E9529F1579500F0E039 /* win.mp3 */,
+				DEB86E9629F1579500F0E039 /* game-over.mp3 */,
+				DEB86E9729F1579500F0E039 /* high-score.mp3 */,
+				DEB86E9829F1579500F0E039 /* riseup.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		DEB86EA129F157BD00F0E039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEB86E8429F1564F00F0E039 /* ContentView.swift */,
+				DEB86EA529F16F4300F0E039 /* LogoView.swift */,
+				DEB86EAB29F174AE00F0E039 /* ReelView.swift */,
+				DEB86EAD29F17CF100F0E039 /* InfoView.swift */,
+				DEB86EAF29F17DB000F0E039 /* FormRowView.swift */,
+				DEB86EB429F1B86700F0E039 /* PopupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEB86EA229F157C300F0E039 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DEB86EA729F16F9400F0E039 /* Modifiers.swift */,
+				DEB86EA929F1732C00F0E039 /* Extensions.swift */,
+				DEB86EB629F1D07600F0E039 /* PlaySound.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DE099CE329F1DD5D009D34E3 /* Casino Game Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE099CEC29F1DD5E009D34E3 /* Build configuration list for PBXNativeTarget "Casino Game Stickers" */;
+			buildPhases = (
+				DE099CE229F1DD5D009D34E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Casino Game Stickers";
+			productName = "Casino Game Stickers";
+			productReference = DE099CE429F1DD5D009D34E3 /* Casino Game Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 		DEB86E7E29F1564F00F0E039 /* SwiftUIGame */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEB86E8D29F1565000F0E039 /* Build configuration list for PBXNativeTarget "SwiftUIGame" */;
@@ -77,10 +211,12 @@
 				DEB86E7B29F1564F00F0E039 /* Sources */,
 				DEB86E7C29F1564F00F0E039 /* Frameworks */,
 				DEB86E7D29F1564F00F0E039 /* Resources */,
+				DE099CEF29F1DD5E009D34E3 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DE099CEA29F1DD5E009D34E3 /* PBXTargetDependency */,
 			);
 			name = SwiftUIGame;
 			productName = SwiftUIGame;
@@ -97,6 +233,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					DE099CE329F1DD5D009D34E3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
 					DEB86E7E29F1564F00F0E039 = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -116,17 +255,35 @@
 			projectRoot = "";
 			targets = (
 				DEB86E7E29F1564F00F0E039 /* SwiftUIGame */,
+				DE099CE329F1DD5D009D34E3 /* Casino Game Stickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DE099CE229F1DD5D009D34E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE099CE729F1DD5E009D34E3 /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DEB86E7D29F1564F00F0E039 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB86E9A29F1579500F0E039 /* chimeup.mp3 in Resources */,
 				DEB86E8A29F1565000F0E039 /* Preview Assets.xcassets in Resources */,
+				DEB86E9D29F1579500F0E039 /* win.mp3 in Resources */,
+				DEB86E9C29F1579500F0E039 /* spin.mp3 in Resources */,
+				DEB86E9929F1579500F0E039 /* background-music.mp3 in Resources */,
 				DEB86E8729F1565000F0E039 /* Assets.xcassets in Resources */,
+				DEB86EA429F157DA00F0E039 /* Launch Screen.storyboard in Resources */,
+				DEB86E9E29F1579500F0E039 /* game-over.mp3 in Resources */,
+				DEB86E9B29F1579500F0E039 /* casino-chips.mp3 in Resources */,
+				DEB86EA029F1579500F0E039 /* riseup.mp3 in Resources */,
+				DEB86E9F29F1579500F0E039 /* high-score.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,14 +294,68 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB86EB529F1B86700F0E039 /* PopupView.swift in Sources */,
+				DEB86EAA29F1732C00F0E039 /* Extensions.swift in Sources */,
+				DEB86EA829F16F9400F0E039 /* Modifiers.swift in Sources */,
 				DEB86E8529F1564F00F0E039 /* ContentView.swift in Sources */,
+				DEB86EB029F17DB000F0E039 /* FormRowView.swift in Sources */,
+				DEB86EB729F1D07600F0E039 /* PlaySound.swift in Sources */,
+				DEB86EA629F16F4300F0E039 /* LogoView.swift in Sources */,
+				DEB86EAC29F174AE00F0E039 /* ReelView.swift in Sources */,
 				DEB86E8329F1564F00F0E039 /* SwiftUIGameApp.swift in Sources */,
+				DEB86EAE29F17CF100F0E039 /* InfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DE099CEA29F1DD5E009D34E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE099CE329F1DD5D009D34E3 /* Casino Game Stickers */;
+			targetProxy = DE099CE929F1DD5E009D34E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		DE099CED29F1DD5E009D34E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M858RF57G5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Casino Game Stickers/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Casino Game";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.SwiftUIGame.Casino-Game-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE099CEE29F1DD5E009D34E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M858RF57G5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Casino Game Stickers/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Casino Game";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.SwiftUIGame.Casino-Game-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		DEB86E8B29F1565000F0E039 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -264,16 +475,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIGame/SwiftUIGame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIGame/Preview Content\"";
+				DEVELOPMENT_TEAM = M858RF57G5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Casino Game";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.casino-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,6 +500,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.SwiftUIGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,16 +514,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIGame/SwiftUIGame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIGame/Preview Content\"";
+				DEVELOPMENT_TEAM = M858RF57G5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Casino Game";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.casino-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +539,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.SwiftUIGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,6 +551,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DE099CEC29F1DD5E009D34E3 /* Build configuration list for PBXNativeTarget "Casino Game Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE099CED29F1DD5E009D34E3 /* Debug */,
+				DE099CEE29F1DD5E009D34E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DEB86E7A29F1564F00F0E039 /* Build configuration list for PBXProject "SwiftUIGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

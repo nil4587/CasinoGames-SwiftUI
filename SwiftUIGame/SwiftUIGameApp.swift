@@ -12,6 +12,7 @@ struct SwiftUIGameApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(minWidth: 320, maxWidth: 640, minHeight: 480, maxHeight: 800)
         }
     }
 }
